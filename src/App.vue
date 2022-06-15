@@ -1,8 +1,10 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import { AirplayIcon, AtSignIcon } from 'vue-feather-icons';
 </script>
+x
 
 <template>
   <div>
@@ -12,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <airplay-icon size="1.5x" class="custom-class"></airplay-icon>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
