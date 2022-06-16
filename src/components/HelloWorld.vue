@@ -1,22 +1,27 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 
 defineProps({
-  msg: String
-})
+  msg: String,
+});
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
 
-  <div class="card">
+  <div class="card" style="border: 1px solid lightgrey; border-radius: 8px">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
+    <vue-feather
+      type="loader"
+      animation="spin"
+      animation-speed="slow"
+    ></vue-feather>
   </div>
 
   <p>
