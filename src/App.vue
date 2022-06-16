@@ -14,8 +14,8 @@ x
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    <airplay-icon size="1.5x" class="custom-class"></airplay-icon>
   </div>
+  <airplay-icon size="1.5x"></airplay-icon>
   <HelloWorld msg="Vite + Vue" />
 </template>
 

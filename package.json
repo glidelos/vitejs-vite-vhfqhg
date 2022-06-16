@@ -9,8 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "feather-icons": "^4.29.0",
     "vue": "^3.2.37",
-    "vue-feather-icons": "^5.1.0"
+    "vue-feather": "^2.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
